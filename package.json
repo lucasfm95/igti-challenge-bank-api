@@ -1,0 +1,40 @@
+{
+  "name": "bank-api",
+  "version": "1.0.0",
+  "description": "app simulate the bank account using node and mongodb ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --experimental-modules app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasfm95/igti-challenge-bank-api.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Lucas Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasfm95/igti-challenge-bank-api/issues"
+  },
+  "homepage": "https://github.com/lucasfm95/igti-challenge-bank-api#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "accounts.json",
+      "docs/*"
+    ],
+    "delay": "1000"
+  }
+}

@@ -1,11 +1,11 @@
 export default (mongoose) => {
     const schema = mongoose.Schema({
         agencia: {
-            type: String,
+            type: Number,
             required: true
         },
         conta: {
-            type: String,
+            type: Number,
             required: true
         },
         name: {
